@@ -39,7 +39,5 @@ while(run):
             run=False
         else:
             print("error")
-                
     except:
-        print("error")   
-    
+        print("error")
