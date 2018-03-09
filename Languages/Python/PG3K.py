@@ -30,7 +30,6 @@ while(run):
                     else:
                         pwd+=random.choice(smbl_lst)
                     count+=1;
-                
                 print("Your new password is:\n"+pwd)                
                 input("Press enter to go back to main menu")
             except:
