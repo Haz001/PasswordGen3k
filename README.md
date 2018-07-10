@@ -25,7 +25,7 @@ I am not responsable for any damages or loss of data.<br/>
 Also can't recover password.<br/>
 No warrenty of any kind provided (Experemental).<br/>
 If you are going to distrobute this please include this github page, my github account and a link to my website <a href="http://hazonline.co.uk">http://hazonline.co.uk</a><br/>
-By using this you agree that you have read this.
+By using this you agree that you have read this fully and accept all of this.
 # Warning
 Don't be stupid and set your account passwords to the 1 million password text file or a extreamly long password.<br/>
 I included the million character password to show the extent of the password genorator.
