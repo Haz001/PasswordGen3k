@@ -2,7 +2,7 @@
 A simple collection of password genorators in diffrent languages.
 Languages I plan on doing (in order):
 
-  <li>Python<li>
+  <li>Python</li>
   <li>C#.net</li>
   <li>JavaScript (for use with html)</li>
   <li>C++</li>
