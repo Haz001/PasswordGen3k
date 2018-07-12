@@ -17,7 +17,7 @@ class fn:
         while vr.run:
             if os_i:
                 os.system("cls")
-            print("=====< Password Genorator 3072 >=====\nWelcome to Password Gen 3072\nTo create a password choose an option:\n0 - BasicPassword\n1 - Custome varibles\n9 - Exit")
+            print("=====< Password Genorator 3072 >=====\nWelcome to Password Gen 3072 (Python ver)\nTo create a password choose an option:\n0 - BasicPassword\n1 - Custome varibles\n9 - Exit")
             cmd = input(">")
             if cmd == '0':
                 print("How many letters (10 < recomended < 100)")
@@ -26,7 +26,7 @@ class fn:
                 except:
                     print("input error")
                 vr.pwd = fn.passgen1(v0t)
-                print("Your new password is:\n"+vr.pwd)                
+                fn.present(vr.pwd)                
                 input("Press enter to go back to main menu\n>")
             elif cmd == '1':
                 print("How many letters (10 < recomended < 100)")
@@ -38,15 +38,14 @@ class fn:
                 v3t = bool(int(input("Include symbols letters\n(1 - true, 0 - false)\n>")))
                 #print(v3t)
                 vr.pwd = fn.passgen1(v0t,v1t,v2t,v3t)
-                print("Your new password is:\n"+vr.pwd)                
+                fn.present(vr.pwd)
                 input("Press enter to go back to main menu\n>")
             elif cmd == '9':
                 vr.run=False
             else:
                 print("error number not recognized")
     def loading():
-        if os_i:
-                os.system("cls")
+        if os_i:os.system("cls")
         for i in range(0,11):
             fn.pb(i/10)
             time.sleep(0.05)
@@ -54,9 +53,9 @@ class fn:
     def pb(pf):
         if(vr.lstper != (round(pf*200)/2)):
             vr.lstper = (round(pf*200)/2)
-            lnw = 25
+            lnw = 100
             i = int(round(pf*lnw))
-            os.system("cls")
+            if os_i:os.system("cls")
             print("["+"="*i+"-"*(lnw-i)+"]\n"+str(round(pf*200)/2)+"%")
     
     def passgen1(v0t = 10,v1t = True,v2t = True,v3t = True):
@@ -76,9 +75,27 @@ class fn:
                 pwd+=random.choice(vr.lc_lst)
             fn.pb(count/v0t)
             count+=1
-            
-            time.sleep(0.005)
         return pwd
+    def present(pwd):
+        pid = 0
+##        try:
+##            ##print(str(5)+5)
+##            pid_r = open("data",'r')
+##            pid = int(pid_r.read())
+##            pid_r.close()
+##            pid_w = open("data",'w')
+##            pid_w.write(str(pid+1))
+##            pid_w.close()
+##            pw_a = open("pw.txt",'a+')
+##            pw_a.write("\n-----< Pass "+str(pid)+" >-----\nPassword:\n"+pwd+"\n-----< Pass end >-----")
+##            pw_a.close()
+##            print("A copy of your password was saved to pw.txt under id: "+str(pid))
+##        except:
+##            pid_w = open("data",'w+')
+##            pid_w.write(str(pid+1))
+##            pid_w.close()
+##            print("-----< ! >-----\nsaving error!!!\n")
+        print("Your new password is :\n"+pwd+"\n")
+        
 
 fn.loading()
-
