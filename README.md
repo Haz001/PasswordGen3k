@@ -3,6 +3,8 @@ A simple collection of password genorators in diffrent languages
 ## Languages
 # Python
 A small 84 lined Python file with UI
+# C#.net
+A small executable that only runs in console to save space but very powerful
 # By using these (Legal Stuff)
 I am not responsable for any damages or loss of data.<br/>
 Also can't recover password.<br/>
