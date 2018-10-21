@@ -1,4 +1,4 @@
-# PasswordGenorator3000
+# PasswordGenorator3072
 A simple collection of password genorators in diffrent languages
 ## Languages
 # Python
