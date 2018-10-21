@@ -1,0 +1,19 @@
+=====< Help >=====
+-----< Windows >-----
+Python:
+1) Click on the python file ending in '.py'.
+2) Either press 0 or 1 to choose the selected mode or 9 to close.
+3) Press enter.
+4) Type in the numebr of characters you want.
+5) Press enter.
+6) The password will be genorated.
+7) Copy password into safe storage place.
+
+C#.net:
+1) Click on the python file ending in '.exe'.
+2) Either press 0 or 1 to choose the selected mode or 9 to close.
+3) Press enter.
+4) Type in the numebr of characters you want.
+5) Press enter.
+6) The password will be genorated.
+7) Copy password into safe storage place.
