@@ -2,8 +2,8 @@
 A simple collection of password genorators in diffrent languages
 ## Languages
 # Python
-A small 84 lined Python file with UI
-<a href="https://github.com/Haz001/PasswordGenorator3072/archive/1.zip">Download Zip</a>
+A small 84 lined Python file with UI<br/>
+<a href="https://github.com/Haz001/PasswordGenorator3072/archive/1.zip">Python Zip</a>
 # C#.net
 A small executable that only runs in console to save space but very powerful
 # By using these (Legal Stuff)
