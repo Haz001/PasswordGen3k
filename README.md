@@ -1,4 +1,5 @@
-# PasswordGenorator3072
+# Password Gen 3K
+<sup>Full name: Password Generator 3072</sup>
 A simple collection of password genorators in diffrent languages
 ## Languages
 # Python
