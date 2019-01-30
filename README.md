@@ -9,6 +9,7 @@ A small 84 lined Python file with UI<br/>
 A small executable that only runs in console to save space but very powerful
 ### Gem (For ruby)
 A small class for password genorating.
+(documentation)[gem.md]
 ## By using these (Legal Stuff)
 I am not responsable for any damages or loss of data.<br/>
 Also can't recover password.<br/>
