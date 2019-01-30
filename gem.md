@@ -16,3 +16,5 @@ a - allow cappital letters, boolean
 b - allow numbers, boolean
 c - allow special characters letters, boolean
 d - allow lower case letters, boolean
+#### Warning
+**If you have all as false it will infinitly loop**
